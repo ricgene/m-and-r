@@ -5,7 +5,7 @@ interface LoginPageProps {
   onLogin: () => void;
 }
 
-const LoginPage = ({ onLogin }) => {
+const LoginPage = ({ onLogin }: LoginPageProps) => {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [error, setError] = useState('');
