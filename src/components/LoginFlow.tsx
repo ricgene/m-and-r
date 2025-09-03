@@ -106,8 +106,8 @@ const LoginPage = ({ onLogin }: LoginPageProps) => {
             type="button"
             onClick={handleSubmit}
             style={buttonStyle}
-            onMouseOver={(e) => e.target.style.backgroundColor = '#555555'}
-            onMouseOut={(e) => e.target.style.backgroundColor = '#666666'}
+            onMouseOver={(e) => (e.target as HTMLButtonElement).style.backgroundColor = '#555555'}
+            onMouseOut={(e) => (e.target as HTMLButtonElement).style.backgroundColor = '#666666'}
           >
             Sign In
           </button>
