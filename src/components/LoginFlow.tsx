@@ -134,7 +134,7 @@ const SuccessPage = () => {
     padding: '60px 40px',
     borderRadius: '4px',
     boxShadow: '0 1px 3px rgba(0,0,0,0.1)',
-    textAlign: 'center',
+    textAlign: 'center' as const,
     width: '100%',
     maxWidth: '400px'
   };
