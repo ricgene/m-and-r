@@ -49,7 +49,7 @@ const LoginPage = ({ onLogin }: LoginPageProps) => {
     borderRadius: '4px',
     fontSize: '16px',
     fontFamily: 'Arial, sans-serif',
-    boxSizing: 'border-box'
+    boxSizing: 'border-box' as const  // ← Add 'as const'
   };
 
   const buttonStyle = {
