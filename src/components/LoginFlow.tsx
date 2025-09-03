@@ -10,7 +10,7 @@ const LoginPage = ({ onLogin }: LoginPageProps) => {
   const [password, setPassword] = useState('');
   const [error, setError] = useState('');
 
-  const handleSubmit = (e) => {
+  const handleSubmit = (e: React.MouseEvent<HTMLButtonElement>) => {
     e.preventDefault();
     setError('');
 
