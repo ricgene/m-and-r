@@ -145,7 +145,7 @@ const SuccessPage = () => {
   return (
     <div style={containerStyle}>
       <div style={contentStyle}>
-        <h1 style={textStyle}>You're in!</h1>
+        <h1 style={textStyle}>Your funnel here...</h1>
       </div>
     </div>
   );
