@@ -1,4 +1,9 @@
+'use client'
 import React, { useState } from 'react';
+
+interface LoginPageProps {
+  onLogin: () => void;
+}
 
 const LoginPage = ({ onLogin }) => {
   const [email, setEmail] = useState('');
